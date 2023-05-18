@@ -40,6 +40,9 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
+    public static String kimcheaw() {
+        return printLabMessage("Hi", "Cheawon Kim", true, "For real.");
+    }
 
     /**
      * An example method that calls on printLabMessage.
@@ -59,10 +62,9 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+        System.out.println(kimcheaw());
 
 
     }
-
-    // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
 
 }
