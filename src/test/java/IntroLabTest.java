@@ -30,4 +30,11 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+    @Test(timeout = 10)
+    public void testNoskorshStudent() {
+        String expected = "Heyy! My name is Sakura! " +
+                "I like cats more than dogs! *enter something funny*";
+        String actual = IntroLab.noskorsh();
+        assertEquals(expected, actual);
+    }
 }
