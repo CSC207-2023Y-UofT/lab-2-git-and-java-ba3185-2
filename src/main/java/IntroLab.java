@@ -42,6 +42,15 @@ public class IntroLab {
      */
 
     /**
+     * A method that calls printLabMessage.
+     * Returns a string containing an introduction, feeling towards cat, and a message.
+     */
+    public static String rammahom() {
+        return printLabMessage("Hello", "Omar", true,
+                "Lab1 Task Completed.");
+    }
+
+    /**
      * An example method that calls on printLabMessage.
      */
     public static String exampleStudent() {
@@ -59,7 +68,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
-
+        System.out.println(rammahom());
 
     }
 
